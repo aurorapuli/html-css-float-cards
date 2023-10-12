@@ -1,0 +1,43 @@
+/* stili generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 14px;
+}
+
+/* stili header */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1{
+    font-family: cursive;
+    font-family: 'AR One Sans', sans-serif;
+    color:rgb(231, 46, 77);
+    padding-bottom: 30px;
+}
+
+/* stili di main */
+
+.row{
+   width: calc(100%/3); 
+}
+.col{
+    float: left;
+}
+.col img{
+    height: 60px;
+   
+
+
+}
