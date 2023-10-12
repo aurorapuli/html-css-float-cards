@@ -14,30 +14,54 @@
 .container{
     width: 70%;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
-    text-align: center;
     padding: 40px 0;
+    text-align: center; 
 }
 
 header h1{
-    font-family: cursive;
     font-family: 'AR One Sans', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color:rgb(231, 46, 77);
     padding-bottom: 30px;
 }
 
 /* stili di main */
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .row{
-   width: calc(100%/3); 
+   width: 100%; 
+   margin: 0 auto;
 }
+
 .col{
     float: left;
+    background-color: black;
+    color: white;
+    padding-right: 40px;
+    width: calc((100%/3) - 20px);
+    margin: 23px 10px;
 }
+
 .col img{
-    height: 60px;
-   
+    height: 85px;
+    float: left;
+}
 
+.dati{
+    float: left;
+    line-height: 25px;
+    vertical-align: middle;
+    padding-left: 13px;
+}
 
+.dati a{
+    color: rgb(36, 120, 148);
 }
